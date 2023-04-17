@@ -82,3 +82,5 @@ out/
 # mpeltonen/sbt-idea plugin
 **/.idea
 
+/ClientWithNoClue/.gradle/
+/Generator/.gradle/
