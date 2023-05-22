@@ -39,20 +39,19 @@ That demonstrates an entry process that is totally unaware of a domain class can
 
 - Go Generator's folder and run it:
 
-`./gradlew  run`
+`./gradlew run`
 (or 
-`./gradlew.bat  run` for Windows)
+`./gradlew.bat run` for Windows)
 
 This will generate a hundred `Person`s with randomised balances up to 10.
 
 - Go to `ClientWithNoClue`'s folder and run the dump to see the generated `Person`s:
 
-`./gradlew  run`
+`./gradlew run`
 
 - Run an alternative main to run the entry processor that donates a tenner to poor people (`Person`s with balance < 5).
 Note that `GenericRecord` is used with 2 other lambdas. One with the processor and another one with the predicate.
 
 `./gradlew  run -DmainClass=BoostPoors`
 
-And run the dump again to see dome of the Persons now have balances exceeding 10.0  
-
+And run the dump again to observe some of the Persons now have balances exceeding 10.0  
