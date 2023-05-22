@@ -78,9 +78,13 @@ hs_err_pid*
 
 # IntelliJ
 out/
+build/
 
 # mpeltonen/sbt-idea plugin
 **/.idea
 
 /ClientWithNoClue/.gradle/
 /Generator/.gradle/
+.gradle
+
+**/bin
